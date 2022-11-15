@@ -1,0 +1,28 @@
+.select_wrapper {
+	position: relative;
+	background-color: white;
+	border: 1px solid rgb(158, 158, 158);
+	border-radius: 0.5rem;
+}
+
+.select {
+	border: none;
+	padding: 0.5rem;
+	-webkit-appearance: none;
+	appearance: none;
+	padding-right: 2rem;
+	z-index: 10;
+	position: relative;
+	background: transparent;
+}
+
+.arrows {
+	content: "▼";
+	width: 1.2rem;
+	height: 1.2rem;
+	top: 50%;
+	right: 0.5rem;
+	transform: translateY(-50%);
+	position: absolute;
+	z-index: 0;
+}

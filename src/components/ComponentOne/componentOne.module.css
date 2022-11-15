@@ -1,0 +1,21 @@
+.root {
+	width: 60%;
+	border: 1px solid rgb(208, 208, 208);
+	background-color: rgb(242, 242, 242);
+	border-radius: 0.5rem;
+	color: rgb(74, 74, 74);
+	text-align: left;
+	margin: 0.5rem;
+}
+
+.calls {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.25rem 0.25rem 0.25rem 0.75rem;
+	border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.label {
+	padding: 0.5rem;
+}

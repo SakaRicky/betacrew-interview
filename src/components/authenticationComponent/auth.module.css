@@ -1,0 +1,33 @@
+.root {
+	margin-top: 2rem;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.infoSpan {
+	display: flex;
+	align-items: center;
+}
+
+.params {
+	display: flex;
+	align-items: center;
+	margin-top: 1rem;
+	background-color: rgb(242, 242, 242);
+	border: 2px solid rgb(227, 227, 227);
+	border-radius: 5px;
+}
+
+.params_label {
+	font-size: 0.85rem;
+	padding: 1rem;
+	border-right: 2px solid rgb(227, 227, 227);
+}
+
+.params_value {
+	margin-left: 1rem;
+}

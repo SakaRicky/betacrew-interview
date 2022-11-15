@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import "./App.css";
+import { ComponentOne } from "./components/ComponentOne/ComponentOne";
+import { ComponentTwo } from "./components/componentTwo/ComponentTwo";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [state, setstate] = useState([]);
+
+	useEffect(() => {}, []);
+
+	return (
+		<div className="App">
+			<section>
+				<h2>Component One</h2>
+				<ComponentOne />
+			</section>
+
+			<section style={{ marginTop: "2rem" }}>
+				<h2>Component Two</h2>
+				<ComponentTwo />
+			</section>
+		</div>
+	);
 }
 
 export default App;
